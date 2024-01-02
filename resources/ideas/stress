@@ -1,0 +1,47 @@
+insert combinatoric optimization problems
+
+* Assignment problem:
+ Assign n agents to m tasks, in such a way that the total cost of n-m assigments is minimized
+ This can be chefs to recipe/kitchen assignments
+
+* Maximum flow problem:
+ A graph representing with edges representing flow, and flow being conserved at vertices. Edges have maximum flows. Find the edge weights that maximize/minimize flow.
+ Hallways can restrict individuals. Trampling can occur if the max flow is exceeded.
+
+* Closure problem:
+ Set of vertices in a directed graph such that the total vertex weight is maximized, and the edges do not leave the set.
+ IDK yet
+
+* Knapsack problem:
+ A set of items have a weight and value. Choose a subset that maximizes value but doesn't exceed total weight.
+ This can be the act of buying literally anything.
+
+* Nurse scheduling problem:
+ Select shifts of employees that satisfy hard and soft constraints. Two employees may hate each other.
+
+* Minimum spanning tree problem:
+ A minimal tree with a graph such that the total edge weights are minimized.
+ Manager positions?
+
+* Set cover problem:
+ Find the minimal subset of sets that cover the universe.
+ This can be skills for repairmen. Since several repairmen with the same skills will have no benefit.
+
+* Job-shop scheduling problem:
+ N machines must do M tasks. The machines each go different speeds, and the tasks take different amounts of time.
+ Customers can preorder in bulk, which must be carefully scheduled.
+
+* Vehicle routing problem:
+ Optimal routes for a set of vehicles to deliver to a set of customers.
+ Route trucks to distribution centers for ingredients. Vehicles can break down, so allow rerouting of other vehicles to assist. :3
+
+* Bin packing problem:
+ Fit sized items in sized bins, minimizing number of bins used.
+ This can be truck packing. Or ingredient packing. Pay big money for extra bins?
+
+* Talent scheduling problem:
+ Actors will be paid for a continuous number of days, and must be in their needed scenes. Rearrange the scene order (scene per day) to minimize cost of actors.
+ This can be fancy chefs.
+
+
+ 

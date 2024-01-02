@@ -1,0 +1,8 @@
+.cache/
+.gitmodules/
+.projectile
+releases/
+build/
+win-build/
+external/
+external/**

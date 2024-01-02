@@ -1,0 +1,27 @@
+#version 330 core
+
+in vec4 gColor;
+in vec3 gNormal;
+in vec2 gTextureCoords;
+
+out vec4 gFragColor;
+
+uniform sampler2D uTexture;
+uniform int uUseTexture;
+// uniform float uTintIntensity;
+
+vec4 textureColor() {
+    return (uUseTexture) *texture( uTexture, gTextureCoords ) +
+           ( 1 - uUseTexture ) * vec4( 1.0, 1.0, 1.0, 1.0 );
+}
+
+void main() {
+    vec4 baseColor = gColor * textureColor();
+    // gFragColor = mix(baseColor, gColor, uTintIntensity) ;
+
+    const vec3 lightDirection = vec3( 1.0, 2.0, 3.0 );
+
+    float light = dot( gNormal, normalize( lightDirection ) );
+    light = max( 0.1, light );
+    gFragColor = light * baseColor;
+}

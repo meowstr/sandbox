@@ -1,0 +1,13 @@
+<Map>
+        <Property name="root" value="">
+                <Property name="Lmao1" value="true"/>
+                <Property name="Lmao2" value="false"/>
+                <Property name="Lmao3" value="no"/>
+                <Property name="Lmao4" value="yes"/>
+                <Property name="NestTest1" value="lol">
+                        <Property name="Subprop1" value="uwu"/>
+                        <Property name="Subprop2" value="owo"/>
+                        <Property name="Subprop3" value="uwu2"/>
+                </Property>
+        </Property>
+</Map>

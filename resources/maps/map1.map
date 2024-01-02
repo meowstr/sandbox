@@ -1,0 +1,19 @@
+player/runningMultiplier: 8.0
+settings/enableCameraBobbing: yes
+settings/enableCameraBobbing2:  [ 1 2 3 4 ] 
+
+levelmesh: level.obj
+
+interactable/o1/pos: t1
+interactable/o1/type: block
+interactable/o1/dialog: "I fucking hate you i suppose"
+
+interactable/o1/pos: t2
+interactable/o1/type: block
+interactable/o1/newmap: map2.map
+
+interactable/o1/pos: t3
+interactable/o1/type: block
+interactable/o1/equip: flashlight
+
+
